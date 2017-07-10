@@ -1,0 +1,20 @@
+doctype html
+html(lang='ru')
+    head
+        title
+        meta(charset='UTF-8')
+        meta(name="description" content='')
+        meta(name='viewport' content='width=device-width, initial-scale=1')
+        link(rel="icon" type="image/png" href="img/favicon.png")
+    body
+        include header
+
+        block content
+
+        include footer
+
+        link(rel="stylesheet" href="css/vendor.min.css")
+        link(rel="stylesheet" href="css/main.min.css")
+
+        script(src="js/vendor.min.js" defer)
+        script(src="js/main.min.js" defer)

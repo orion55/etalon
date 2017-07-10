@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: "San Francisco", 'PTSansRegular', 'Arial', sans-serif;
+  color: $color-text;
+  font-size: 18px;
+  background-color: white;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  li {
+    list-style: none;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+:focus, a:active, a:hover {
+  outline: 0;
+}
